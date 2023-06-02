@@ -97,7 +97,7 @@ void printLocalTime() {
 
 // Calculo de Horas e minutos.
 // Esta função retorna na matriz horamedi e minmedi valor da hora e minutos
-void calculaHora(uint8_t Ch[], uint8_t Cm, uint8_t hora, uint8_t minuto, uint8_t* valorHora, uint8_t* valorMinuto) {
+void calculaHora(uint8_t Ch, uint8_t Cm, uint8_t hora, uint8_t minuto, uint8_t* valorHora, uint8_t* valorMinuto) {
   *valorHora = Ch + hora;
   *valorMinuto = Cm + minuto;
 
