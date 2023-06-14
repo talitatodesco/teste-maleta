@@ -110,7 +110,7 @@ void calculaHora(uint8_t horaInicial, uint8_t minutoInicial, uint8_t intervaloHo
     *valorHora %= 24;
   }
 
-  while (*valorHora <= hrs) {
+  while (*valorHora < hrs) {
     incrementoDaHora(intervaloHoras, intervaloMinuto, &(*valorHora), &(*valorMinuto));
   }
 
